@@ -28,8 +28,8 @@ public class RootConfig {
 	public DataSource dataSource (){
 		HikariConfig config = new HikariConfig();
 		config.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
-		config.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@np.yermi.works:1521:xe");
-		config.setUsername("yeosoo");
+		config.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@np.daeseok.xyz:1521:xe");
+		config.setUsername("yeosu");
 		config.setPassword("0000");
 		return new HikariDataSource(config);
 	}
